@@ -1,0 +1,92 @@
+[
+    {
+        "hero_id": 1,
+        "hero_name": "José Rizal",
+        "hero_program": "National Hero",
+        "hero_address": "Calamba, Laguna",
+        "hero_age": 35,
+        "hero_birthdate": "1861-06-19",
+        "hero_contributions": "Reformist, Writer, and Nationalist"
+    },
+    {
+        "hero_id": 2,
+        "hero_name": "Andres Bonifacio",
+        "hero_program": "Father of the Katipunan",
+        "hero_address": "Tondo, Manila",
+        "hero_age": 33,
+        "hero_birthdate": "1863-11-30",
+        "hero_contributions": "Revolutionary Leader"
+    },
+    {
+        "hero_id": 3,
+        "hero_name": "Emilio Aguinaldo",
+        "hero_program": "First President of the Philippines",
+        "hero_address": "Kawit, Cavite",
+        "hero_age": 95,
+        "hero_birthdate": "1869-03-22",
+        "hero_contributions": "Leader of the Philippine Revolution"
+    },
+    {
+        "hero_id": 4,
+        "hero_name": "Apolinario Mabini",
+        "hero_program": "Brainless General",
+        "hero_address": "Batangas City, Batangas",
+        "hero_age": 38,
+        "hero_birthdate": "1864-07-23",
+        "hero_contributions": "Political Theorist and Advisor"
+    },
+    {
+        "hero_id": 5,
+        "hero_name": "Gabriela Silang",
+        "hero_program": "Female Revolutionary Leader",
+        "hero_address": "Cavite City, Cavite",
+        "hero_age": 29,
+        "hero_birthdate": "1731-03-19",
+        "hero_contributions": "Leader of the Revolt against Spanish Rule"
+    },
+    {
+        "hero_id": 6,
+        "hero_name": "Lapu-Lapu",
+        "hero_program": "First Filipino Hero",
+        "hero_address": "Mactan, Cebu",
+        "hero_age": 50,
+        "hero_birthdate": "1491-01-01",
+        "hero_contributions": "Defeated Ferdinand Magellan"
+    },
+    {
+        "hero_id": 7,
+        "hero_name": "Marcelo H. del Pilar",
+        "hero_program": "Journalist and Nationalist",
+        "hero_address": "San Nicolas, Bulacan",
+        "hero_age": 45,
+        "hero_birthdate": "1850-08-30",
+        "hero_contributions": "Editor of Kalayaan and Advocate for Reform"
+    },
+    {
+        "hero_id": 8,
+        "hero_name": "Sultan Kudarat",
+        "hero_program": "Leader of the Sultanate",
+        "hero_address": "Sultan Kudarat, Mindanao",
+        "hero_age": 60,
+        "hero_birthdate": "1620-01-01",
+        "hero_contributions": "Defended the Moros from Colonizers"
+    },
+    {
+        "hero_id": 9,
+        "hero_name": "Antonio Luna",
+        "hero_program": "General",
+        "hero_address": "Batangas City, Batangas",
+        "hero_age": 32,
+        "hero_birthdate": "1866-10-29",
+        "hero_contributions": "Military Strategist and Scientist"
+    },
+    {
+        "hero_id": 10,
+        "hero_name": "Rizalito S. Jalandoni",
+        "hero_program": "Filipino Politician",
+        "hero_address": "Cavite City, Cavite",
+        "hero_age": 42,
+        "hero_birthdate": "1982-03-14",
+        "hero_contributions": "Public Servant and Advocate for Education"
+    }
+]
