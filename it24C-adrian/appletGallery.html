@@ -6,90 +6,82 @@
     <title>Document</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-
+    
     <style>
+        body {
+            background-image: url('https://wallpapercat.com/w/full/0/a/8/319915-3840x2160-desktop-4k-iron-man-background.jpg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            height: 100vh;
+            margin: 0;
+        }   
+
         .title{
-            margin-left: 5rem;
-           text-align: center;
+            margin-left: 3rem;
+            text-align: center;
         }
+
         .applet-flex-container{
-            display:flex;
+            display: flex;
             justify-content: center;
-            margin-left: 5rem;
+            margin: 3rem;
+            justify-content: space-between;
         }
+
         .applet-flex-container > div{
-            margin-left: .5rem;
+            margin-left: 1rem;
+            transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;   
+        }
+
+        .card:hover {
+            transform: scale(1.05); 
+            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.395);
         }
     </style>
+
 </head>
 
 <nav class="navbar navbar-expand-lg bg-body-tertiary">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="index.html">Home</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Applets
-            </a>
-            <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="applet-1.html">Applet 1</a></li>
-              <li><a class="dropdown-item" href="applet-2.html">Applet 2</a></li>
-              <li><a class="dropdown-item" href="applet-3.html">Applet 3</a></li>
-            </ul>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link disabled" aria-disabled="true">Disabled</a>
-          </li>
-        </ul>
-        <form class="d-flex" role="search">
-          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-success" type="submit">Search</button>
-        </form>
-      </div>
+  <div class="container-fluid">
+    <a class="navbar-brand" href="appletGallery.html">Home</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Applets
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="applet1.html">Applet 1 - Basic Events</a></li>
+            <li><a class="dropdown-item" href="applet2.html">Applet 2 - Leaflet Map</a></li>
+            <li><a class="dropdown-item" href="applet3.html">Applet 3 - Event Button Logger</a></li>
+            <li><a class="dropdown-item" href="index.html">Applet 4 - Dynamic Elements</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+        </li>
+      </ul>
+      <form class="d-flex justify-content-center" role="search" style="width: 40%;">
+        <input class="form-control me-2" type="search" id="appletSearchBar"placeholder="Search Applets" aria-label="Search">
+        <button class="btn btn-outline-primary" type="button" id="searchButton">Search</button>
+      </form>
     </div>
+  </div>
 </nav>
+
+<h1 style="text-align: center; font-weight: bold; margin-top: 2rem;">App Gallery</h1>
+
+<div class ="applet-flex-container" id="appletgalleryCont"> </div>
+  <script src="appgallery.json"></script>
+  <script src="appgallery.js"></script>
+</body>
+</html>
 <body>
-    <h1 class ="title">APP GALLERY</h1>
-    <div class="applet-flex-container">
-        <!--Applet 1-->
-        <div class="card" style="width: 18rem;">
-          <img src="https://imgs.search.brave.com/zVHbpI1iKtVw34wKf-Clw_3dhRFgRpSfWCBGpxIY-WI/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YTQuZ2lwaHkuY29t/L21lZGlhL01VbG1S/Rm5UUXh3SjIvMjAw/LmdpZj9jaWQ9Nzkw/Yjc2MTFycGl4N3Jk/bzAwb2c3ZHBxYnI1/Y3lzcXBsdG0weGox/ZW8yenI5MDZmJmVw/PXYxX2dpZnNfc2Vh/cmNoJnJpZD0yMDAu/Z2lmJmN0PWc.gif" class="card-img-top" alt="Description of Image" style="border-top-left-radius: 5px; border-top-right-radius: 5px;">
-            <div class="card-body">
-              <h5 class="card-title">Applet 1 - Basic Events</h5>
-              <p class="card-text">This application contains the basic implementation of DOM events</p>
-              <a href="applet1.html" class="btn" style="background-color: black; color: white;">Go to Applet</a>
-            </div>
-            
-          </div>
 
-            <!--Applet 1-->
-        <div class="card" style="width: 18rem;">
-          <img src="https://imgs.search.brave.com/48hxzyFpTqIU7xZw23N7z0M1ss0mXtbYnEuVPDdGwoI/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9naWZk/Yi5jb20vaW1hZ2Vz/L2hpZ2gvaXJvbi1t/YW4tbGVhcC1mbHkt/NW92aWMwbWJuaDg0/M29veC5naWY.gif" style="border-top-left-radius: 5px; border-top-right-radius: 5px;">
-            <div class="card-body">
-              <h5 class="card-title">Applet 2 - Leaflet Map</h5>
-              <p class="card-text">This application contains a basic web map that allows users to explore geographic locations interactively. Users can zoom in and out, pan across the map, and view various points of interest.
-              </p>
-              <a href="applet2.html" class="btn btn-primary" style="background-color: black; color: white;">Go to Applet</a>
-            </div>
-          </div>
-
-          
-            <!--Applet 1-->
-        <div class="card" style="width: 18rem;">
-          <img src="https://imgs.search.brave.com/ilLvy-zgq8UKMhZeovoiXmTtzArw5R3uy3q0G2mspgw/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9naWZk/Yi5jb20vaW1hZ2Vz/L2hpZ2gvdG9ueS13/ZWFyaW5nLWlyb24t/bWFuLW9uMWhzNmkx/N3dscHllNDMuZ2lm.gif" class="card-img-top" alt="Description of Image" style="border-top-left-radius: 5px; border-top-right-radius: 5px;">
-            <div class="card-body">
-              <h5 class="card-title">Applet 3 - Event Button Logger</h5>
-              <p class="card-text">This application contains an Event Logger that captures and records events happening within the system. It tracks user actions like clicks and key presses, as well as system errors.</p>
-              <a href="applet3.html" class="btn btn-primary"style="background-color: black; color: white;">Go to Applet</a>
-            </div>
-          </div>
-        
-        
-    </div>
 </body>
 
 </html>

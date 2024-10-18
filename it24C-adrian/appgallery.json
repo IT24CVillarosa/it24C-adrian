@@ -1,0 +1,26 @@
+[
+    {
+         "Applet_No": "Applet - Basic Events",
+         "Description": "This application contains the basic implementation of DOM events",
+         "file": "applet1.html",
+         "Image": "https://favim.com/pd/s11/orig/7/768/7687/76876/avengers-iron-man-i-love-you-3000-Favim.com-7687601.gif"
+       },
+       {
+         "Applet_No": "Applet 2 - Leaflet Map",
+         "Description": "This application contains the basic web map",
+         "file": "applet2.html",
+         "Image": "https://www.icegif.com/wp-content/uploads/2024/09/iron-man-icegif-2.gif"
+       },
+       {
+         "Applet_No": "Applet 3 - Event Button Logger",
+         "Description": "tracks and records user interactions with buttons, providing insights into usage patterns and user behavior",
+         "file": "applet3.html",
+         "Image": "https://mrwgifs.com/wp-content/uploads/2013/09/Tony-Stark-Puts-On-The-Iron-Man-Suit-Gif.gif"
+       },
+       {
+         "Applet_No": "Applet 4 - Dynamic Elements",
+         "Description": "tracks and records user interactions with buttons, providing insights into usage patterns and user behavior",
+         "file": "index.html",
+         "Image": "https://i.pinimg.com/originals/98/1a/33/981a3311d69e9dc3a067d8938e6e720a.gif"
+       }
+ ]
