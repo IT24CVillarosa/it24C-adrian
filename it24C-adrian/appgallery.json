@@ -28,5 +28,11 @@
          "Description": "This application is the basic usage of the Openweather API",
          "file": "openWeather.html",
          "Image": "https://www.bing.com/th/id/OGC.54603c681d37cecb2973e7974dea7f43?pid=1.7&rurl=https%3a%2f%2fmedia.tenor.com%2fMcY9R4_xYOIAAAAC%2firon-man-tony-stark.gif&ehk=3oNkfbb56LbUg2qYPJHrnyl4S%2fMsGGgVY4oMSIxEvBQ%3d"
+       },
+       {
+        "Applet_No": "Applet 6 - Todo List",
+         "Description": "This application is your ultimate productivity companion, designed to help you organize and prioritize tasks effortlessly.",
+         "file": "applet6.html",
+         "Image": "https://giffiles.alphacoders.com/815/81566.gif"
        }
  ]
